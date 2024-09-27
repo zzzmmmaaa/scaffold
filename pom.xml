@@ -23,6 +23,7 @@
     </developers>
     <modules>
         <module>domain</module>
+        <module>adapter</module>
     </modules>
     <scm>
         <connection/>
