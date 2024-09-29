@@ -1,8 +1,8 @@
-package com.sleepy.adapter.repository.mysql;
+package com.sleepy.adapter.output.repository.mysql;
 
-import com.sleepy.adapter.repository.entity.BaseDO;
-import com.sleepy.adapter.repository.mysql.reactiverepository.BaseReactiveRepository;
-import com.sleepy.adapter.repository.trasfer.BaseTransfer;
+import com.sleepy.adapter.output.repository.entity.BaseDO;
+import com.sleepy.adapter.output.repository.mysql.reactiverepository.BaseReactiveRepository;
+import com.sleepy.adapter.output.repository.trasfer.BaseTransfer;
 import com.sleepy.domain.model.BaseModel;
 import com.sleepy.domain.repositry.BaseRepository;
 import org.springframework.beans.factory.annotation.Autowired;

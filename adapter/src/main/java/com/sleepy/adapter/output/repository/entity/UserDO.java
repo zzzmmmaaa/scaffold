@@ -1,4 +1,4 @@
-package com.sleepy.adapter.repository.entity;
+package com.sleepy.adapter.output.repository.entity;
 
 import lombok.*;
 import org.springframework.data.relational.core.mapping.Table;

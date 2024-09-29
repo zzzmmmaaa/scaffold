@@ -1,4 +1,4 @@
-package com.sleepy.adapter.controller;
+package com.sleepy.adapter.input.controller;
 
 import com.sleepy.domain.model.User;
 import com.sleepy.domain.service.UserService;

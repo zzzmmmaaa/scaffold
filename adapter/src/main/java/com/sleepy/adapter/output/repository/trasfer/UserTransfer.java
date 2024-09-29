@@ -1,7 +1,7 @@
-package com.sleepy.adapter.repository.trasfer;
+package com.sleepy.adapter.output.repository.trasfer;
 
 
-import com.sleepy.adapter.repository.entity.UserDO;
+import com.sleepy.adapter.output.repository.entity.UserDO;
 import com.sleepy.domain.model.User;
 import org.mapstruct.Mapper;
 

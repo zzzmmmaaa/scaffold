@@ -1,4 +1,4 @@
-package com.sleepy.adapter.repository.entity;
+package com.sleepy.adapter.output.repository.entity;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;

@@ -1,8 +1,8 @@
-package com.sleepy.adapter.repository.mysql;
+package com.sleepy.adapter.output.repository.mysql;
 
-import com.sleepy.adapter.repository.entity.UserDO;
-import com.sleepy.adapter.repository.mysql.reactiverepository.UserReactiveRepository;
-import com.sleepy.adapter.repository.trasfer.UserTransfer;
+import com.sleepy.adapter.output.repository.entity.UserDO;
+import com.sleepy.adapter.output.repository.mysql.reactiverepository.UserReactiveRepository;
+import com.sleepy.adapter.output.repository.trasfer.UserTransfer;
 import com.sleepy.domain.model.User;
 import com.sleepy.domain.repositry.UserRepository;
 import org.springframework.stereotype.Repository;

@@ -25,6 +25,7 @@
         <module>domain</module>
         <module>adapter</module>
         <module>starter</module>
+        <module>facade</module>
     </modules>
     <scm>
         <connection/>
@@ -68,6 +69,7 @@
             <artifactId>lombok</artifactId>
             <version>1.18.10</version>
         </dependency>
+        <!--   mapstruct     -->
         <dependency>
             <groupId>org.mapstruct</groupId>
             <artifactId>mapstruct</artifactId>
@@ -77,6 +79,17 @@
             <groupId>org.mapstruct</groupId>
             <artifactId>mapstruct-processor</artifactId>
             <version>1.4.1.Final</version>
+        </dependency>
+<!--        Dubbo -->
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-spring-boot-starter</artifactId>
+            <version>3.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-registry-zookeeper</artifactId>
+            <version>3.3.0</version>
         </dependency>
     </dependencies>
 
